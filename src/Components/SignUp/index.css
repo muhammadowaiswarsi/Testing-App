@@ -1,0 +1,90 @@
+.signUp-component{
+    background: #EDEDED;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUp-component .Form-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+
+.signUp-component .line{
+    background: #c2c2c2;
+    width : 100%;
+    height: 2px;
+}
+
+.signUp-component .line2{
+    background: #c2c2c2;
+    width : 100%;
+    height: 2px;
+    margin-top : 5px;
+    width : 98%;
+}
+
+.signUp-component .heading{
+    color : #4a4a4a;
+}
+
+.signUp-component label{
+    color : #5e5e5e;
+    font-size: 11px;
+}
+
+.signUp-component .flex-and-center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.signUp-component .agreement-para{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    margin : 0;
+}
+
+.signUp-component .checkbox-class{
+    margin-top : 0;
+}
+
+.signUp-component .agree-para{
+    font-size: 12px;
+    text-shadow : 0.2px 0.2px;
+}
+
+.signUp-component .agree-para-span{
+    color : #282828;
+    font-weight: bold;
+}
+
+.signUp-component .signUp-btn{
+    width: 100%;
+    background : #4a4a4a;
+    color : #d0d0d0;
+    text-shadow: none;
+    height: 40px;
+    border-radius: 0;
+}
+
+.signUp-component .Login-word{
+    color : #282828
+}
+
+.signUp-component ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 11px;
+}
+
+.form-control{
+    border: none !important;
+    border-radius: 0 !important;
+}
